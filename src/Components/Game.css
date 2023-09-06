@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+}
+
+li {
+  padding-inline: 24px;
+  padding-block: 16px;
+
+  font-size: 25px;
+  border: 1px solid black;
+  margin-left: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
